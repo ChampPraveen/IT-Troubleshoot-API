@@ -6,7 +6,7 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 app = FastAPI()
 
 from huggingface_hub import login
-login("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")
+login("HF_TOKEN")
 # Load model
 model_path = "Praveen02072004/Alpaca-gpt2"
 
